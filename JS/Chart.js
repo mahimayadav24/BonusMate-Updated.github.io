@@ -13,7 +13,7 @@ var options = {
             opacity: 0.06
         }
     },
-    colors: ['#00E396', '#0090FF',],
+    colors: ['#7fffd4', '#b0e0e6','#3789F9',],
     stroke: {
         curve: "smooth",
         width: 3
@@ -27,7 +27,13 @@ var options = {
     }, {
         name: '',
         data: generateDayWiseTimeSeries(1, 18)
-    }],
+
+    }, {
+        name: '',
+        data: generateDayWiseTimeSeries(1, 18)
+
+    },
+    ],
     markers: {
         size: 0,
         strokeColor: "#fff",
