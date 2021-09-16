@@ -2379,3 +2379,23 @@ table::-webkit-scrollbar-thumb:hover {
 .timeline-desc span{
     font-size: calc(11pt + 0.15vw);
 }
+.lg__sm__col {
+    position: fixed;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.lg__sm__col::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.lg__sm__col {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
